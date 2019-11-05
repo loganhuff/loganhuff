@@ -75,3 +75,31 @@ body {
 	background:rgba(0, 0, 0, 0.2);
 	padding: 8px 0px 8px 12px;
 }
+
+.navbar-site-logo {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar__logo {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 275ms;
+  border: 3px #ffb6c1 solid;
+}
+
+.navbar__logo--x-large {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar__logo--mobile {
+  width: 35px;
+  height: 35px;
+}
+
+
+/* Tooltips */`
