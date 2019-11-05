@@ -88,14 +88,18 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: all 275ms;
+  border: 3px #ffb6c1 solid;
 }
 
 .navbar__logo--x-large {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .navbar__logo--mobile {
   width: 35px;
   height: 35px;
 }
+
+
+/* Tooltips */`
