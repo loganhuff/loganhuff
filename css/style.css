@@ -89,3 +89,13 @@ body {
   cursor: pointer;
   transition: all 275ms;
 }
+
+.navbar__logo--x-large {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar__logo--mobile {
+  width: 35px;
+  height: 35px;
+}
