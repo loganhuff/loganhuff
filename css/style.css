@@ -49,6 +49,12 @@ body {
     align-items: center;
 }
 
+#navbar .navbar__left {
+	border-radius: 8px;
+	background:rgba(0, 0, 0, 0.2);
+	padding: 8px 0px 8px 12px;
+}
+
 .navbar .navbar__left {
 	justify-content: flex-start;
 }
@@ -70,8 +76,16 @@ body {
 	margin-right: 16px;
 }
 
-#navbar .navbar__left {
-	border-radius: 8px;
-	background:rgba(0, 0, 0, 0.2);
-	padding: 8px 0px 8px 12px;
+.navbar-site-logo {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar__logo {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 275ms;
 }
